@@ -96,7 +96,7 @@
   vars:
     postgre_container: /home/ec2-user/postgresql
     container_name: beyza_postgre
-    image_name: 916621187399.dkr.ecr.us-east-1.amazonaws.com/clarusway-repo/cw-todo-app:postgr
+    image_name: 916621187399.dkr.ecr.us-east-1.amazonaws.com/clarusway-repo/cw-todo-app:postgre
   tasks:
     - name: remove {{ container_name }} container and {{ image_name }} if exists
       shell: "docker ps -q --filter 'name={{ container_name }}' && docker stop {{ container_name }} && docker rm -fv {{ container_name }} && docker image rm -f {{ image_name }} || echo 'Not Found'"
