@@ -7,11 +7,6 @@ terraform {
   }
 }
 
-backend "s3"{
-    bucket="jenkins-pr-backend"
-    key="backend/tf-backend-jenkins.tfstate"
-    region="us-east-1"
-}
 
 provider "aws" {
   region = "us-east-1"
