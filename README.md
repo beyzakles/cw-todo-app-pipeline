@@ -129,7 +129,7 @@ In the architecture, you can configure your architecture with these conditions,
 
 ## Expected Outcome
 
-![Todo Web Page](./todo_web.png)
+![Todo Web Page](./todo.png)
 
 ### At the end of the project, following topics are to be covered;
 
@@ -159,7 +159,7 @@ In the architecture, you can configure your architecture with these conditions,
 
 - Git & Github for Version Control System
 
-### At the end of the project, students will be able to;
+### At the end of the project, we will be able to;
 
 - demonstrate how to configure Jenkins pipeline to create infrstructure with terraform.
 
@@ -181,14 +181,18 @@ In the architecture, you can configure your architecture with these conditions,
 
 - apply git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-## Resources
+<h2> Instances </h2>
 
-- [Ansible Documentation Framework](https://docs.ansible.com/ansible/2.5/user_guide/index.html)
+![Todo Web Page](./instances.png)
 
-- [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/index.html)
+<h2>ECR Images</h2>
 
-- [Authenticating Amazon ECR Repositories for Docker CLI with Credential Helper](https://aws.amazon.com/blogs/compute/authenticating-amazon-ecr-repositories-for-docker-cli-with-credential-helper/)
+![Todo Web Page](./ecr.png)
 
-- [Docker Reference Page](https://docs.docker.com/reference/)
+<h2>Pipeline</h2>
 
-- [Jenkins Handbook](https://www.jenkins.io/doc/book/)
+![Todo Web Page](./pipeline.png)
+
+<h2>Final Result</h2>
+
+![Todo Web Page](./todo.png)
